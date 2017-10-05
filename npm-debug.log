@@ -3,41 +3,46 @@
 1 verbose cli   '/usr/local/lib/node_modules/npm/bin/npm-cli.js',
 1 verbose cli   'run-script',
 1 verbose cli   'run' ]
-2 info using npm@2.15.9
-3 info using node@v4.5.0
+2 info using npm@3.10.8
+3 info using node@v6.9.1
 4 verbose run-script [ 'prerun', 'run', 'postrun' ]
-5 info prerun Gamejam@1.0.0
-6 info run Gamejam@1.0.0
-7 verbose unsafe-perm in lifecycle true
-8 info Gamejam@1.0.0 Failed to exec run script
-9 verbose stack Error: Gamejam@1.0.0 run: `gulp`
-9 verbose stack Exit status 1
-9 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:217:16)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at EventEmitter.emit (events.js:172:7)
-9 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at ChildProcess.emit (events.js:172:7)
-9 verbose stack     at maybeClose (internal/child_process.js:829:16)
-9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
-10 verbose pkgid Gamejam@1.0.0
-11 verbose cwd /Users/romanguerin/WebstormProjects/Game_Jam-master
-12 error Darwin 16.0.0
-13 error argv "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/bin/npm-cli.js" "run-script" "run"
-14 error node v4.5.0
-15 error npm  v2.15.9
-16 error code ELIFECYCLE
-17 error Gamejam@1.0.0 run: `gulp`
-17 error Exit status 1
-18 error Failed at the Gamejam@1.0.0 run script 'gulp'.
-18 error This is most likely a problem with the Gamejam package,
-18 error not with npm itself.
-18 error Tell the author that this fails on your system:
-18 error     gulp
-18 error You can get information on how to open an issue for this project with:
-18 error     npm bugs Gamejam
-18 error Or if that isn't available, you can get their info via:
-18 error
-18 error     npm owner ls Gamejam
-18 error There is likely additional logging output above.
-19 verbose exit [ 1, true ]
+5 info lifecycle Gamejam@1.0.0~prerun: Gamejam@1.0.0
+6 silly lifecycle Gamejam@1.0.0~prerun: no script for prerun, continuing
+7 info lifecycle Gamejam@1.0.0~run: Gamejam@1.0.0
+8 verbose lifecycle Gamejam@1.0.0~run: unsafe-perm in lifecycle true
+9 verbose lifecycle Gamejam@1.0.0~run: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/romanguerin/WebstormProjects/Game_Jam-master/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle Gamejam@1.0.0~run: CWD: /Users/romanguerin/WebstormProjects/Game_Jam-master
+11 silly lifecycle Gamejam@1.0.0~run: Args: [ '-c', 'gulp' ]
+12 silly lifecycle Gamejam@1.0.0~run: Returned: code: 1  signal: null
+13 info lifecycle Gamejam@1.0.0~run: Failed to exec run script
+14 verbose stack Error: Gamejam@1.0.0 run: `gulp`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid Gamejam@1.0.0
+16 verbose cwd /Users/romanguerin/WebstormProjects/Game_Jam-master
+17 error Darwin 17.0.0
+18 error argv "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/bin/npm-cli.js" "run-script" "run"
+19 error node v6.9.1
+20 error npm  v3.10.8
+21 error code ELIFECYCLE
+22 error Gamejam@1.0.0 run: `gulp`
+22 error Exit status 1
+23 error Failed at the Gamejam@1.0.0 run script 'gulp'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the Gamejam package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     gulp
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs Gamejam
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls Gamejam
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
