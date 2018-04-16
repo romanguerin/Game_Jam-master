@@ -1,7 +1,3 @@
-/**
- * Created by Jamel Ziaty & Roman on 06-09-16.
- */
-
 const gulp = require("gulp");
 const babelify = require("babelify");
 const browserify = require("browserify");

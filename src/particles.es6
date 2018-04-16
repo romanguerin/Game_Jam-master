@@ -1,22 +1,18 @@
 class Particle {
-    constructor(enemyPosX, enemyPosY) {
+    constructor(enemyPosX, enemyPosY, hardness) {
         this.particle = {
             xPos: enemyPosX,
             yPos: enemyPosY,
             width: 10,
             height: 10,
-            xVelocity: (Math.random()-0.5)*5 -1,
-            yVelocity: (Math.random()-0.5)*5 -1,
+            speed: hardness,
             color: "rgba(23,44,56,1)",
             dead: false
         }
-    }
+    };
 
     move() {
-        this.particle.xPos += this.particle.xVelocity;
-        this.particle.yPos += this.particle.yVelocity;
-
-
+        this.particle.yPos += this.particle.speed;
     }
 
     die() {
@@ -32,7 +28,7 @@ class Particle {
         if (this.particle.xPos >= window.innerWidth - 10) {
             this.particle.dead = true;
         }
-    }
+    };
 
     get pos3() {
         return {

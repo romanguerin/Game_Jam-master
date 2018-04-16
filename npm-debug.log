@@ -10,8 +10,8 @@
 6 silly lifecycle Gamejam@1.0.0~prerun: no script for prerun, continuing
 7 info lifecycle Gamejam@1.0.0~run: Gamejam@1.0.0
 8 verbose lifecycle Gamejam@1.0.0~run: unsafe-perm in lifecycle true
-9 verbose lifecycle Gamejam@1.0.0~run: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/romanguerin/WebstormProjects/Game_Jam-master/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-10 verbose lifecycle Gamejam@1.0.0~run: CWD: /Users/romanguerin/WebstormProjects/Game_Jam-master
+9 verbose lifecycle Gamejam@1.0.0~run: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/romanguerin/WebstormProjects/Game_Eind_opdracht_2/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle Gamejam@1.0.0~run: CWD: /Users/romanguerin/WebstormProjects/Game_Eind_opdracht_2
 11 silly lifecycle Gamejam@1.0.0~run: Args: [ '-c', 'gulp' ]
 12 silly lifecycle Gamejam@1.0.0~run: Returned: code: 1  signal: null
 13 info lifecycle Gamejam@1.0.0~run: Failed to exec run script
@@ -26,8 +26,8 @@
 14 verbose stack     at maybeClose (internal/child_process.js:877:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid Gamejam@1.0.0
-16 verbose cwd /Users/romanguerin/WebstormProjects/Game_Jam-master
-17 error Darwin 17.0.0
+16 verbose cwd /Users/romanguerin/WebstormProjects/Game_Eind_opdracht_2
+17 error Darwin 17.3.0
 18 error argv "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/bin/npm-cli.js" "run-script" "run"
 19 error node v6.9.1
 20 error npm  v3.10.8

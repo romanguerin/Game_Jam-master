@@ -34,7 +34,7 @@ class KeyView {
                 this.down = false;
             }
         });
-    }
+    };
 
     get location (){
         return {
